@@ -1,1 +1,84 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: rgb(4, 77, 25);
+}
+.outerborder {
+  margin-top: 5%;
+  margin-left: 22%;
+  border: rgb(109, 1, 1) 5px solid;
+  border-radius: 30px;
+  height: 800px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.centeredContainer {
+  width: 300px;
+  height: 450px;
+  border-radius: 25px;
+  margin: auto;
+  background-color: black;
+}
+
+.cardHeaderContainer {
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 90px;
+  padding-left: 8%;
+  padding-top: 3%;
+}
+
+.cardContentContainer {
+  font-size: 150px;
+  text-align: center;
+}
+
+.cardContentContainer p {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.cardbottomContainer {
+  margin-top: 40px;
+  margin-left: 120px;
+  padding-right: 8%;
+  padding-bottom: 3%;
+  font-size: 95px;
+  margin-bottom: 15px;
+}
+
+.btnstyle {
+  background-color: rgb(118, 118, 245);
+  height: 40px;
+  width: 180px;
+  font-size: medium;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.btnstyle:hover {
+  background-color: rgb(78, 78, 161);
+  border-bottom: #ddd;
+  border-right: #ddd;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-style: solid;
+}
+/* .btnholder {
+  align-self: center;
+} */
+.iconTwo {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -o-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+
+#bottomContainer {
+  text-align: center;
+  margin-top: 50px;
+}
